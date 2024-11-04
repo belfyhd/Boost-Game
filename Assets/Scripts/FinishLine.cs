@@ -8,7 +8,6 @@ public class FinishLine : MonoBehaviour
 
     public AudioSource finishAudio;
     public Rigidbody rb;
-    public AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
