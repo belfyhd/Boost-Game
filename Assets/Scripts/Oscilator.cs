@@ -8,7 +8,7 @@ public class Oscilator : MonoBehaviour
     Vector3 startingPosition;
     [SerializeField] Vector3 movementVector;
     [SerializeField] [Range(0,1)]float movementFactor;
-    [SerializeField] float movementSpeed = 2f;
+    [SerializeField] float movementSpeed = 3f;
     private Rigidbody rb;
     bool movingForward = true;
     // Start is called before the first frame update
